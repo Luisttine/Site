@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1> "Faça login para acessar o site!"{{ titulo }}</h1>
+    <h1> Faça login para acessar o site!{{ titulo }}</h1>
     <Mensage msg="e-mail"/>
     <input type="text" name="nome" value="" placeholder="e-mail" />
     <Login msg="Digite seu e-mail!"/>
@@ -9,20 +9,6 @@
   </div>
 </template>
 
-  var Login = vue.component( 'Login') {=
-    routes:[
-  var router = new VueRouter({
-    {path:}'/Login', componet: Login}
-    ]
-    )};
-
-var app = new Vue({
-  el: "#app",
-  router,
-  data: {
-    titulo: "Faça seu login!",
-}
-})
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
