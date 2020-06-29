@@ -1,5 +1,3 @@
-import Vue from 'Vue'
-
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -33,22 +31,14 @@ import Vue from 'Vue'
 </template>
 
 <script>
+
 export default {
   name: 'Login',
   props: {
     msg: String
   }
 }
-const Login = {
-  template: '<div>Login</div>'
-}
 
-const router = new VueRouter({
-  routes: [
-    // dynamic segments start with a colon
-    { path: '/Login/:id', component: Login }
-  ]
-})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
