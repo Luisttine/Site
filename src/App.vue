@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <h1> Faça login para acessar o site!{{ titulo }}</h1>
-    <Mensage msg="e-mail"/>
     <input type="text" name="nome" value="" placeholder="e-mail" />
     <Login msg="Digite seu e-mail!"/>
     <img alt="Vue logo" src="./assets/logo.png">
