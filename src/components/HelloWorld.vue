@@ -6,6 +6,11 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <h2>JOGOS PARA JOGAR</h2>
+    <ul>
+      <li><TicTacToe>Jogo da Véia</TicTacToe></li>
+      <li><Pong>Ping-Pong</Pong></li>
+    </ul>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -31,10 +36,18 @@
 </template>
 
 <script>
+import Pong from './Pong.vue'
+import TicTacToe from './TicTacToe.vue'
+
 export default {
+  teste: 1,
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+    components: {
+    Pong, 
+    TicTacToe
   }
 }
 </script>
