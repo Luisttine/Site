@@ -1,5 +1,9 @@
 <template>
   <div class="hello">
+
+    <TicTacToe></TicTacToe>
+
+
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -8,7 +12,6 @@
     </p>
     <h2>JOGOS PARA JOGAR</h2>
     <ul>
-      <li><TicTacToe>Jogo da Véia</TicTacToe></li>
       <li><Pong>Ping-Pong</Pong></li>
     </ul>
     <h3>Installed CLI Plugins</h3>
